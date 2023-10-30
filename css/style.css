@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+/*!-----------------------RESET----------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: 'DM Serif Display', serif;
+
+}
+
+/*!-----------------------HEADER---------------------*/
+header{
+    background-color:#ffff00e3;
+}
+
+h1{
+    color: orange;
+    font-family:cursive;
+    font-style:italic;
+    font-weight: 150;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*!---------------Esta parte se encuentra en el taller-----------no funcionaaaaa---------
+h1::five-letter{
+    color:deeppink;
+    font-size: x-large;
+    font-style: oblique;
+    }
+h1::first-letter{
+    color:greenyellow;
+    font-size: x-large;
+    font-style: oblique;
+    }
+----------------------------------------------------------------------------------*/
+
+header nav ul{
+    list-style: none;
+    }
+
+
+header nav ul li{
+    display: inline-block;
+
+    }
+
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    font-style:italic;
+    color: deeppink;
+    }
+
+/*!------------------------MAIN----------------------*/
+
+.h2-h3-p{
+    color: orange;
+    font-family:cursive;
+    font-style:italic;
+    font-weight: 125;
+    text-align: center;
+    padding: auto;
+    
+
+}
+
+.h3-2doclick{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: yellow;
+}
+
+
+.genero{
+    display: inline-block;
+    margin: 0px 42px 20px 42px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    background-position: center;
+    background-size: cover;
+}
+
+/*!----------------------MAIN DE PAYAMOMENTOS-SUMATE........*/
+.payamomentos-sumate{
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    color: chartreuse;
+    background-color: deeppink;
+    background-size: cover;
+    background-position: center;
+}
+/*----------------------MAIN DE PAYASOL-ORIGEN-SUMATE 2DA.SECTION..............*/
+.payasol-origen{
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    color: deeppink;
+    background-color: cyan;  
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+}
+/*!-----------------------FOOTER----------------------------------------------*/
+footer{
+    border:2px ;
+    background-color:rgba(252, 250, 239, 0.918);
+    
+}
+
+
+/*!-----------------------FLEX-CONTAINERS--------------------------------------*/
+
+.flex-container{
+    border: 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+
+}
+
+
+.flex-container-nav-ul{
+    border: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.flex-container-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: deeppink;
+    
+
+}
+.flex-container-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:greenyellow;
+    background-position: center;
+    background-color: deeppink;
+    background-position: center;
+
+}
+
+.flex-container-footer{
+    border:2px ;
+    height:130px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+/*!------------------------------------bootsrap------------------------------*/
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:greenyellow;
+    background-position: center;
+    background-color: deeppink;
+    background-position: center
+
+}
+
+
+/*----------------------------------GRID-CONTAINER------------------------------*/
+.grid-container{    
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    grid-template-rows: 40px 50px;
+    grid-row-gap: 0px;       
+}
+
+.grid-form {
+    border: solid 2px;
+    font-size: 20px;
+    padding: 7px;
+    background-color: greenyellow;
+}
+
+
+/*!------------------------MEDIA QUERYS---------------------------------*/
+
+/*!------------------------------RESPONSIVE----------------*/
+
+@media (min-width: 1024px){
+    .h3-2doclick{
+        color:cyan;
+        font-family:Verdana, Tahoma, sans-serif ;      
+    }
+    
+}
+@media (min-width: 1024px){
+    header nav ul li a{
+        font-style:oblique;
+        color:greenyellow;
+    }
+}
+
+@media (max-width: 1024px){
+    .grid-form{
+        background-color: yellow;
+    }
+}
+
+
+
