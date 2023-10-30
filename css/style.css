@@ -197,6 +197,21 @@ footer{
 
 }
 
+.col-lg-4{
+    border: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-lg-8{
+    border: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
 
 /*----------------------------------GRID-CONTAINER------------------------------*/
 .grid-container{    
@@ -240,5 +255,46 @@ footer{
     }
 }
 
+/*---------------pseudoclases---pseudoelementos----------------------------*/
+
+/*Estilos base para los divs*/
+div{
+    padding:2px;
+    }
+/*Estilos base para los enlaces*/
+
+a{ /*Todos los elementos <a>*/
+    display:inline-block;
+    padding:auto;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;
+    color:chartreuse;
+}    
+
+a:link{ /*Todos los elementos <a> que tengan un atributo href definido y no hayan sido visitados*/
+    font-weight: bold;
+    padding: 20px;
+    background-color: lightskyblue;
+    color: rgb(255, 255, 224);
+}
+a:visited {/*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
+    padding:10px;
+    background-color: rgba(8, 8, 8, 0.322);    
+    color: #fa058c96;
+}
+a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
+    font-weight: bold;
+    padding:20px;
+    background-color: rgb(252, 2, 106);
+    color: rgba(244, 247, 67, 0.966);
+}
+
+a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
+    background-color: rgb(255, 255, 7);
+    font-weight: bold;
+    padding:20px;
+    color: rgba(99, 102, 102, 0.897);
+}
 
 
