@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Melina Ayelén Caffaro</h1>
-<h3 align="center">Mi Proyecto es de Payamêdicos, ya que en Octubre de este año, realice los cursos y soy Payamêdica.y me pa</h3>
-
-<h3 align="left">Connect with me:</h3>
+<h3 align="center">Mi Proyecto es de Payamêdicos, ya que en Octubre de este año, realice los cursos y soy Payamêdica.</h3>
 <p align="left">
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </p>
+<p>La idea basica de hacer un sitio de Payamêdicos es justamente para que las personas puedan conocer de la existencia de los mismos,y poder sumarse!Creo que es super importante en la época que vivimos, poder ayudar, y sacar sonrisas que sanan.Para este proyecto, que espero que sea el primero de muchos, me ayudaron las nuevas payas: Mai y Diani, que me permitieron poder hacer una pequeña sesión de fotos.En cuanto al proyecto, se que falta darle mucha más forma, pero tengo la convicción que lo estare perfeccionando a medida que voy aprendiendo nuevos recursos.Hasta ahora pude aplicar flex-box,gird,bootstrap,pseudoclases, entre otros. Gracias por interesarte en mi primer proyecto, espero que puedas disfrutar de su progreso.
+<h3 align="left">Connect with me:</h3>
