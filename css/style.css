@@ -440,6 +440,27 @@ a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
         margin: 10px;      
     }
 
+    .container-fluid{
+        width: 100%;
+    }
+    .row d-flex{
+        width: 50%;
+    }
+    .col-lg-4{
+        width: 85%;
+        display: flex;
+        height: auto;
+        scroll-padding-block: center;
+        
+    }
+    .col-lg-8{
+        width: 70%;
+        display:flex;
+        height: auto;
+        justify-content:auto;
+        align-items: center;
+    }
+
     .footer-imagens{
         max-width: 80%;
     }
@@ -451,9 +472,8 @@ a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
         justify-content:auto;
         align-items: center;
     }
-
 }
-
+/*!-----------------------tablet-netbook-notebook--------------------------*/
 @media screen and(min-width:720px), (max-width:920px){  
     .flex-container-nav-ul{
         width: 100%;
