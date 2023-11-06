@@ -23,8 +23,8 @@ h1{
     font-weight: 150;
     text-align: center;
     padding: 20px;
-    
 }
+
 
 /*!---------------Esta parte se encuentra en el taller-----------no funcionaaaaa---------
 h1::five-letter{
@@ -65,8 +65,8 @@ header nav ul li a{
     font-style:italic;
     font-weight: 125;
     text-align: center;
-    padding: auto;
-    
+    padding: 10px;
+    margin:0%
 
 }
 
@@ -80,12 +80,35 @@ header nav ul li a{
 
 .genero{
     display: inline-block;
-    margin: 0px 42px 20px 42px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     background-position: center;
     background-size: cover;
+}
+
+input[type="text"],
+input[type="nombre"],
+input[type="email"],
+input[type="radio"],
+input[type="number"],
+input[type="genero"],
+input[type="edad"],
+input[type="apellido"],
+select{
+    display: grid;
+    width: 100%;
+    padding: 5px;
+    margin: 4px;
+    padding-bottom: 2px;
+    margin-bottom: auto;
+    background-color: deeppink;
+    color: rgb(204, 202, 202);
+    border-radius: 1px;
+    font-size: 22px;
+    text-align: center;
+    accent-color: rgb(204, 202, 202);
+
 }
 
 /*!----------------------MAIN DE PAYAMOMENTOS-SUMATE........*/
@@ -122,8 +145,10 @@ footer{
 
 .flex-container{
     border: 10px;
-    height: 10vh;
-    display: flex;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    overflow:auto;
     justify-content: space-evenly;
     align-items: center
 
@@ -131,13 +156,16 @@ footer{
 
 
 .flex-container-nav-ul{
-    border: 5px;
+    padding-left: 0%;
+    margin: 0%;
     width: 100%;
     height: 100%;
-    display: flex;
+    overflow: auto;
+    display:inline-block;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    text-align: center;
 }
 
 .flex-container-hero{
@@ -147,7 +175,7 @@ footer{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 750px;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,12 +200,15 @@ footer{
 }
 
 .flex-container-footer{
-    border:2px ;
-    height:130px ;
+    height:100% ;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightseagreen;
+}
+.flex-container-iframe{
+    padding: 12px;
+    margin: 14px;
 }
 
 /*!------------------------------------bootsrap------------------------------*/
@@ -219,40 +250,29 @@ footer{
     width: 100%;
     grid-template-columns: auto auto;
     grid-column-gap: 0px;
-    grid-template-rows: 40px 50px;
+    grid-template-rows: 100px 120px;
     grid-row-gap: 0px;       
 }
 
 .grid-form {
+    display: flex;
     border: solid 2px;
+    width: 100%;
+    height: 100%;
     font-size: 20px;
-    padding: 7px;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 3px;
     background-color: greenyellow;
+
 }
 
-
-/*!------------------------MEDIA QUERYS---------------------------------*/
-
-/*!------------------------------RESPONSIVE----------------*/
-
-@media (min-width: 1024px){
-    .h3-2doclick{
-        color:cyan;
-        font-family:Verdana, Tahoma, sans-serif ;      
-    }
-    
-}
-@media (min-width: 1024px){
-    header nav ul li a{
-        font-style:oblique;
-        color:greenyellow;
-    }
-}
-
-@media (max-width: 1024px){
-    .grid-form{
-        background-color: yellow;
-    }
+.grid-form-bottom{
+    color:deeppink;
+    background-color: greenyellow;
+    padding: 2px;
+    margin: 2px;
 }
 
 /*---------------pseudoclases---pseudoelementos----------------------------*/
@@ -280,14 +300,14 @@ a:link{ /*Todos los elementos <a> que tengan un atributo href definido y no haya
 }
 a:visited {/*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
     padding:10px;
-    background-color: rgba(8, 8, 8, 0.322);    
+    background-color:rgba(255, 255, 0, 0.363) ;    
     color: #fa058c96;
 }
 a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
     font-weight: bold;
     padding:20px;
     background-color: rgb(252, 2, 106);
-    color: rgba(244, 247, 67, 0.966);
+    color: chartreuse;
 }
 
 a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
@@ -297,4 +317,161 @@ a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
     color: rgba(99, 102, 102, 0.897);
 }
 
+/*!------------------------MEDIA QUERYS---------------------------------*/
+/*!------------------------RESPONSIVE MOVIL----------------*/
 
+@media (max-width:520px){
+    .h3-2doclick{
+        color:cyan;
+        font-family:Verdana, Tahoma, sans-serif ;      
+    }
+
+    .video{
+        display: flex;
+        width: 85%;
+        height: 85%;
+        
+    }
+    
+    a:visited {/*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
+        padding: 0px;
+        background-color:orange ;    
+        color: #fa058c96;
+    
+        }
+    
+    .grid-container{
+        display: grid;
+        width: 100%;
+        justify-content: center ;
+        grid-template-columns: auto auto;
+        grid-column-gap: 1px;
+        grid-template-rows: auto auto;
+        grid-row-gap: 1px;  
+    }
+
+    .grid-form{
+        background-color: yellow;
+        display: grid;  
+        border: solid 0.5px;
+        justify-content: center ;
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        padding: 5px;
+        margin: 0.1px; 
+    }
+    .grid-form-bottom{
+        background-color: yellow;
+        display: grid;
+        width: 100%;
+    }   
+
+    #nombre{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+        font-size: small;
+        text-align: center;
+    }
+    #apellido{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+        font-size: small;
+        text-align: center;
+    }
+    #genero{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #edad{
+        width:75%;
+        padding: auto;
+        margin: auto;
+        text-align: center;
+    }
+    #email{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+        font-size: x-small;
+        text-align: center;
+            }
+    #celular{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+        text-align: center;
+    }
+    #dni{
+        width: 75%;
+        padding: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .flex-container-nav-ul{
+        background-color: chartreuse;
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    header nav ul{
+        width: 100%;
+    }
+    header nav ul li a{
+        width: 100%;
+        font-size: x-small;
+        justify-content: center;
+        padding: auto;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .flex-container-iframe{
+        max-width: 85%;
+        padding: 8px; 
+        margin: 10px;      
+    }
+
+    .footer-imagens{
+        max-width: 80%;
+    }
+    .flex-container-footer{
+        height: auto; 
+        display: flex;
+        scroll-padding-block: center;
+        border-bottom: 4px;
+        justify-content:auto;
+        align-items: center;
+    }
+
+}
+
+@media screen and(min-width:720px), (max-width:920px){  
+    .flex-container-nav-ul{
+        width: 100%;
+        text-decoration:solid;
+        padding: auto;
+        margin: 0px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style:italic;
+        background-color: chartreuse;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        border-style: groove;
+        border-color: cornsilk;
+        } 
+        a:visited {/*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
+            padding: 0px;
+            background-color:chartreuse ;    
+            color: #fa058c96;
+        }
+}
