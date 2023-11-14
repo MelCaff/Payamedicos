@@ -54,13 +54,13 @@ header nav ul li a{
     text-decoration: none;
     font-family: cursive;
     font-style:italic;
-    color: deeppink;
+    color:rgb(204, 202, 202)  ;
     }
 
 /*!------------------------MAIN----------------------*/
 
 .h2-h3-p{
-    color: orange;
+    color: rgb(204, 202, 202);
     font-family:cursive;
     font-style:italic;
     font-weight: 125;
@@ -74,7 +74,7 @@ header nav ul li a{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
-    color: yellow;
+    color: azure;
 }
 
 
@@ -116,7 +116,8 @@ select{
     text-align: center;
     font-family: serif;
     font-style: italic;
-    color: chartreuse;
+    color: rgb(255, 255, 224);
+    color: ;
     background-color: deeppink;
     background-size: cover;
     background-position: center;
@@ -126,7 +127,7 @@ select{
     text-align: center;
     font-family: serif;
     font-style: italic;
-    color: deeppink;
+    color: rgb(255, 255, 224);
     background-color: cyan;  
     background-size: cover;
     background-position: center;
@@ -192,7 +193,7 @@ footer{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
-    color:greenyellow;
+    color: rgb(255, 255, 224);
     background-position: center;
     background-color: deeppink;
     background-position: center;
@@ -221,7 +222,7 @@ footer{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
-    color:greenyellow;
+    color: rgb(255, 255, 224);
     background-position: center;
     background-color: deeppink;
     background-position: center
@@ -269,7 +270,7 @@ footer{
 }
 
 .grid-form-bottom{
-    color:deeppink;
+    color: rgb(255, 255, 224);
     background-color: greenyellow;
     padding: 2px;
     margin: 2px;
@@ -322,7 +323,7 @@ a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
 
 @media (max-width:520px){
     .h3-2doclick{
-        color:cyan;
+        color:azure;
         font-family:Verdana, Tahoma, sans-serif ;      
     }
 
@@ -335,7 +336,7 @@ a:active {/*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
     
     a:visited {/*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
         padding: 0px;
-        background-color:orange ;    
+        background-color:grey ;    
         color: #fa058c96;
     
         }
