@@ -106,10 +106,20 @@ header {
     font-weight: 150;
     text-align: center;
     padding: 18px;
-    background-color: #b1ff05;
-    width: 100%; }
+    background: #b1ff05;
+    background: linear-gradient(24deg, rgba(177, 255, 5, 0.927609) 2%, #c6fd63 7%, #99f081 15%, #4bd9b5 25%, #cdff5e 80%, rgba(1, 196, 231, 0.854779) 100%);
+    width: 100%;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   .flex-container-hero .h2-h3-p {
-    color: #cccaca;
+    color: #f8f8ff;
     font-family: cursive;
     font-style: italic;
     font-weight: 125;
@@ -126,7 +136,7 @@ header {
   text-align: center;
   font-family: serif;
   font-style: italic;
-  color: lightgrey;
+  color: #f8f8ff;
   background-color: #01c4e7;
   background-size: cover;
   background-position: center;
@@ -186,7 +196,7 @@ p
   text-align: center;
   font-family: serif;
   font-style: italic;
-  color: lightgrey;
+  color: #f8f8ff;
   background-color: #01c4e7;
   background-size: cover;
   background-position: center;
@@ -252,7 +262,7 @@ p
   text-align: center;
   font-family: serif;
   font-style: italic;
-  color: lightgrey;
+  color: #f8f8ff;
   background-color: #01c4e7;
   background-size: cover;
   background-position: center;

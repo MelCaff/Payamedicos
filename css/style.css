@@ -81,12 +81,23 @@ h1{
     font-weight: 150;
     text-align: center;
     padding: 18px;
-    background-color: #b1ff05;
+    background: rgb(177,255,5);
+    background: linear-gradient(24deg, rgba(177,255,5,0.927608543417367) 2%, rgba(198,253,99,1) 7%, rgba(153,240,129,1) 15%, rgba(75,217,181,1) 25%, rgba(205,255,94,1) 80%, rgba(1,196,231,0.8547794117647058) 100%);;
     width:100%;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
 }
-
+@keyframes aparecer {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
 .h2-h3-p{
-    color: rgb(204, 202, 202);
+    color: #f8f8ff;
     font-family:cursive;
     font-style:italic;
     font-weight: 125;
@@ -128,7 +139,7 @@ h1{
     text-align: center;
     font-family: serif;
     font-style: italic;
-    color: lightgrey;
+    color: #f8f8ff;
     background-color: #01c4e7;  
     background-size: cover;
     background-position: center;
