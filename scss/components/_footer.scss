@@ -1,0 +1,48 @@
+.flex-container-footer{
+    border:2px ;
+    background-color:#f8f8ff;
+    height:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    
+    .footer-imagens{
+        padding:0px;
+
+        a{
+            display:inline-block;
+            padding:auto;
+            margin: auto;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color:#ffa300;
+            color:#b1ff05;
+            &:link{
+                font-weight: bold;
+                border-radius: 15%;
+                padding: 15px;
+                background-color: white;
+                color: #ff0571;
+            }
+            &:visited{
+                padding:10px;
+                background-color:#ffa300;  
+                color: white;
+            }
+            &:hover{
+                font-weight: bold;
+                padding:20px;
+                background-color: rgb(252, 2, 106);
+                color: yellow;
+            }
+            &:active{
+                background-color: yellow;
+                font-weight: bold;
+                padding:20px;
+                color: #ff0571;
+            }
+
+            
+        }
+    }
+}
