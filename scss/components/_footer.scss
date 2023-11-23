@@ -1,4 +1,6 @@
 .flex-container-footer{
+    border: radius 7px;
+    box-shadow: 4px,2px,2px,4px,#f8f8ff;
     border:2px ;
     background-color:#f8f8ff;
     height:100% ;
@@ -7,16 +9,19 @@
     align-items: center;
     background-color: lightseagreen;
     
+    
     .footer-imagens{
         padding:0px;
+        margin-top: 20px;
+        margin-bottom: 7px;
 
         a{
             display:inline-block;
+            border-radius: 7px;
             padding:auto;
             margin: auto;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             background-color:#ffa300;
-            color:#b1ff05;
             &:link{
                 font-weight: bold;
                 border-radius: 15%;

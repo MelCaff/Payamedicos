@@ -140,7 +140,67 @@ h1{
 }
 
 
-/*!-----------------------FLEX-CONTAINERS--------------------------------------*/
+/*!-----------------------MAIN DE SUMATE--------------------------------------*/
+.flex-container-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: white;
+    background-position: center;
+    background-color: #ff0571;
+    background-position: center;
+}
+
+.section-form{
+    background-color:#01c5e7a2;
+    color:#f8f8ff;
+    font-family: cursive;
+    font-style: italic;
+    padding: 0 1.5em;
+}
+
+.grid-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.h2-form{
+    color:#ff0571;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+
+.grid-container-jr{
+    box-shadow: 10px 10px 20px 10px #ff0571;
+    border-radius: 16px;
+}
+
+.grid-container.jr > * {
+    padding: 2em;
+}
+
+.grid-form{
+    background-color: #01c5e780;
+    border-radius: 14px 14px 0 0;
+}
+
+.h3-grid{
+    color:#050b15;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 15px;
+}
 
 .flex-container{
     border: 10px;
@@ -193,70 +253,12 @@ h1{
     
 
 }
-.flex-container-section{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    color: white;
-    background-position: center;
-    background-color: #ff0571;
-    background-position: center;
 
-}
 .flex-container-iframe{
     padding: 12px;
     margin: 14px;
 }
 
-.section-form{
-    background-color:#01c5e7a2;
-    color:#f8f8ff;
-    font-family: cursive;
-    font-style: italic;
-    padding: 0 1.5em;
-}
-
-.h2-form{
-    color:#ff0571;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 22px;
-}
-
-.h3-grid{
-    color:#050b15;
-    text-align: center;
-    justify-content: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    padding: 15px;
-}
-
-
-.grid-container{
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-
-.grid-container-jr{
-    box-shadow: 10px 10px 20px 10px #ff0571;
-    border-radius: 16px;
-}
-
-.grid-container.jr > * {
-    padding: 2em;
-}
-.grid-form{
-    background-color: #01c5e780;
-    border-radius: 14px 14px 0 0;
-}
 .grid-info{
     background-color: #01c4e7;
     margin: 0;

@@ -166,7 +166,6 @@
                 text-align: center;
                 justify-content: center;
                 align-items: center;
-
             }
         }
         .col-lg-8{
@@ -224,7 +223,6 @@
 .flex-container-section{
     display: flex;
     flex-direction: column;
-    height: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -242,87 +240,167 @@
     font-family: cursive;
     font-style: italic;
     padding: 0 1.5em;
+    width: 100%;
+    height: 75%;
+
+}
+
 
     .grid-container{
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 96%;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 20PX;
         padding: 1.5em;
-
+    }
         .h2-form{
             color:#ff0571;
             text-align: center;
             justify-content: center;
             margin-bottom: 22px;
-
         }
         .grid-container-jr{
             box-shadow: 10px 10px 20px 10px #ff0571;
             border-radius: 16px;
             padding: 2em;
+            width: 100%;
+            height: 50%;
+        
+        }
+            .h3-grid{
+                color:#050b15;
+                text-align: center;
+                justify-content: center;
+                margin-top: 7px;
+                margin-bottom: 7px;
+                padding: 15px;
 
-            .grid-form{
-                background-color: #01c5e780;
-                border-radius: 14px 14px 0 0;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
             }
 
-                .h3-grid{
-                    color:#050b15;
-                    text-align: center;
-                    justify-content: center;
-                    margin-top: 7px;
-                    margin-bottom: 7px;
-                    padding: 15px;
-                    form action{
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                    }
+            .grid-form{
+                display:grid;
+                background-color: #01c5e780;
+                border-radius: 14px 14px 0 0;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 70%;
+                width: 100%;
                 }
-                        p{
-                            margin: 0;
-                            padding: 1em;
-                        button{
-                            width: 100%;
-                            padding: .7em;
-                            border: none;
-                            background: none;
-                            outline: 0;
-                            color:#f8f8ff;
-                            border-bottom: 1px solid #050b15;
-                            text-transform: uppercase;
-                            border:0;
-                        }
+                form {
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    } 
+                    p{
+                        margin: 0;
+                        padding: 1em;
+                    }
                         input{
                             width: 100%;
                             padding: .7em;
                             border: none;
                             background: none;
                             outline: 0;
-                            color:#f8f8ff;
+                            color:#050b15;
                             border-bottom: 1px solid #050b15;
                         }
+                    P{
+                        margin: 0;
+                        padding: 1em;
                     }
-                    .block{
-                        grid-column: 1 / 3;
-
-                        .grid-form-button{
+                        .genero{
+                            display: flex;
+                            text-align: center;
+                            background-position: center;
+                            accent-color: #050b15;
+                            text-align: center;
+                        }
+                        
+                        input{
                             width: 100%;
                             padding: .7em;
                             border: none;
                             background: none;
                             outline: 0;
-                            color:#f8f8ff;
+                            color:#050b15;
+                            border-bottom: 1px solid #050b15;
+                            text-align: center;
+                            accent-color: #050b15;
+                        }
+                    P{
+                        margin: 0;
+                        padding: 1em;
+                    }
+                        input{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color:#050b15;
+                            border-bottom: 1px solid #050b15;
+                        }
+                    P{
+                        margin: 0;
+                        padding: 1em;
+                    }
+                        input{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color:#050b15;
+                            border-bottom: 1px solid #050b15;
+                        }
+                    P{
+                        margin: 0;
+                        padding: 1em;
+                    }
+                        input{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color:#050b15;
+                            border-bottom: 1px solid #050b15;
+                    P{
+                        margin: 0;
+                        padding: 1em;
+                    }
+                        input{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background: none;
+                            outline: 0;
+                            color:#050b15;
+                            border-bottom: 1px solid #050b15;
+                        }
+                    .block{
+                        margin: 0;
+                        padding: 1em;
+                        grid-column: 1 / 3;
+                    }
+                        .grid-form-button{
+                            width: 100%;
+                            padding: .7em;
+                            border: none;
+                            background-color: none;
+                            outline: 0;
+                            color:#050b15;
                             border-bottom: 1px solid #050b15;
                             text-transform: uppercase;
                             border:0;
-                        }
-                    }
-                }
-            }
-        }
+                        }                       
+                    
+                
+    
+}
         .grid-info{
+            display: block;
             background-color: #01c4e7;
             margin: 0;
             padding: 1em;
@@ -335,6 +413,7 @@
                 margin-top: 7px;
                 margin-bottom: 7px;
                 padding: 15px;
+                font-size: large;
                 
 
             }
@@ -342,11 +421,22 @@
                 list-style: none;
                 text-align: center;
                 justify-content: center;
+                align-items: center;
+                font-size: small;
 
             }
         }
 
+    .flex-container-h2{
+        margin-top: 20px;
+        font-family: cursive;
+        font-style: italic;
+        font-size: x-large;
+    }
     .flex-container-iframe{
+        border-radius: 4px;
+        border: 1px;
+        box-shadow: 3px 3px 20px 5px #f8f8ff;
         padding: 12px;
         margin: 14px;
 
