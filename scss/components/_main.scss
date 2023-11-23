@@ -115,7 +115,7 @@
     background-position: center;
 
     .flex-container-h2
-    p
+    
     .flex-container-iframe{
         padding: 12px;
         margin: 14px;
@@ -165,21 +165,24 @@
                 margin-left: 20px;
                 text-align: center;
                 justify-content: center;
+                align-items: center;
 
             }
         }
         .col-lg-8{
             border:auto;
             display: flex;
-            justify-content:right;
-            align-items: right;
-            margin-top: 10px;
+            justify-content:center;
+            align-items: center;
+            margin-top: 12px;
+            margin-bottom: 12px;
+
             .fotos-payas{
                 border-radius: 20px;
                 width: 550px;
                 height: 500px;
-                text-align: right;
-                justify-content: right;
+                align-items: center;
+                justify-content: center;
                 object-fit: cover;
                 margin: 10px;
                 box-shadow: 5px 5px 5px 5px lightgray;
