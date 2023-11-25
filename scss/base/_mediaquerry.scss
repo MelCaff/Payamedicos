@@ -1,5 +1,5 @@
 
-@media (max-width:719px){
+@media (max-width:720px){
     header nav ul{
         width: 100%;
         }
@@ -24,27 +24,6 @@
         padding: 8px; 
         margin: 10px;      
     }
-
-    .container-fluid{
-        width: 100%;
-    }
-        .row d-flex{
-            width: 50%;
-        }
-
-            .col-lg-4{
-                width: 85%;
-                display: flex;
-                height: auto;
-                scroll-padding-block: center;
-            }
-            .col-lg-8{
-                width: 70%;
-                display:flex;
-                height: auto;
-                justify-content:auto;
-                align-items: center;
-            }
 
                 .fotos-payas{
                     
@@ -71,6 +50,79 @@
                     text-align:center ;
                     justify-content:center ;
                 }
+.container-fluid {
+    display: grid;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: lightgrey;
+    background-position: center;
+    background-color: #ff0571;
+    background-size: cover;
+    width: 100%;
+
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+        .col-lg-4,
+        .col-lg-8 {
+            width: 100%;
+            border: auto;
+            display: grid;
+            margin-left: 10px;
+            margin-right: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-size: cover;
+            background-position:center;
+            padding: 2px;
+}
+
+            h3,
+            .parrafos-payas,
+            .fotos-payas {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                width: 100%; 
+                height: auto;
+                margin-top:5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                margin-right: 5px;
+                background-size: cover;
+                padding: 2px;
+                background-size: cover;
+                font-size: larger;
+            }
+
+            h3{
+                background-color: rgba(255, 255, 0, 0.952);
+                color: rgb(119, 116, 116);
+                font-size: x-large;
+                font-family: cursive;
+                font-style: italic;
+                padding: 2px;
+                margin: auto;
+                width: 100%;
+            }
+            
+        }
+    
 
 
     .footer-imagens{
@@ -204,7 +256,108 @@ header nav.logo-header{
 
 }
     
-    
-    
+
+@media screen and (min-width:320px), (max-width:580px){
+
+.container-fluid {
+    display: grid;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: lightgrey;
+    background-position: center;
+    background-color: #ff0571;
+    background-size: cover;
+    width: 100%;
+
+    .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    }
+        .col-lg-4,
+        .col-lg-8 {
+            width: 100%;
+            border: auto;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+        .parrafos-payas {
+            color: white;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 100%;
+            font-weight: lighter;
+            margin-top: 20px;
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        .fotos-payas {
+            border-radius: 20px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            margin: 10px;
+            box-shadow: 5px 5px 5px 5px lightgray;
+        }
+
+        h3,
+        .parrafos-payas,
+        .fotos-payas {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 100%; 
+            height: auto;
+            margin-top:5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-size: cover;
+            padding: 2px;
+            background-size: cover;
+            font-size: small;
+        }
+
+        h3{
+            background-color: rgba(255, 255, 0, 0.952);
+            color: rgb(119, 116, 116);
+            font-size: medium;
+            font-family: cursive;
+            font-style: italic;
+            padding: 2px;
+            margin: auto;
+            width: 100%;
+        }
+        
+        }
+
+    }
+}
+
+@media screen and (min-width: 721px) {
+.container-fluid {
+    width: 100%;
+        .row {
+        grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 768px) {
+.container-fluid {
+        width: 100%; 
+    }
+}
+
     
     
