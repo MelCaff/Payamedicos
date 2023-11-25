@@ -10,7 +10,7 @@
 body {
   font-family: 'DM Serif Display', serif; }
 
-/*!-----------------pseudo-elemenros/clases-----------*/
+/*!---------------------pseudoelementos/pseudocodigos----------*/
 a:visited {
   /*Todos los elementos <a> que tengan un atributo href definido y ya hayan sido visitados*/
   padding: 0px;
@@ -133,14 +133,24 @@ header {
     font-weight: 125;
     text-align: center;
     padding: 10px;
-    margin: 0%; }
+    margin: 0%;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .flex-container-hero .video {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 4px 4px 15px 4px #ffff00; }
   .flex-container-hero .h3-2doclick {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
     font-style: italic;
-    color: white; }
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px; }
 
-.payasol-origen {
+.flex-index-section1 {
   text-align: center;
   font-family: serif;
   font-style: italic;
@@ -149,36 +159,58 @@ header {
   background-size: cover;
   background-position: center;
   padding: 20px; }
-  .payasol-origen div {
-    padding: 0px; }
-    .payasol-origen div a {
-      display: inline-block;
-      padding: auto;
-      margin: auto;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      background-color: #ffa300;
-      color: #b1ff05; }
-      .payasol-origen div a:link {
-        font-weight: bold;
-        border-radius: 15%;
-        padding: 15px;
-        background-color: white;
-        color: #ff0571; }
-      .payasol-origen div a:visited {
-        padding: 10px;
-        background-color: #ffa300;
-        color: white; }
-      .payasol-origen div a:hover {
-        font-weight: bold;
-        padding: 20px;
-        background-color: #fc026a;
-        color: yellow; }
-      .payasol-origen div a:active {
-        /*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
-        background-color: yellow;
-        font-weight: bold;
-        padding: 20px;
-        color: #ff0571; }
+
+.h2-index-flechas {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-style: normal;
+  background-color: #b1ff05;
+  color: #050b15;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+div {
+  padding: 0px; }
+
+.enlace-inscrip-virtual {
+  display: inline-block;
+  padding: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffa300;
+  color: #b1ff05; }
+  .enlace-inscrip-virtual:link {
+    font-weight: bold;
+    border-radius: 15%;
+    padding: 15px;
+    background-color: white;
+    color: #ff0571; }
+  .enlace-inscrip-virtual:visited {
+    padding: 10px;
+    background-color: #ffa300;
+    color: white; }
+  .enlace-inscrip-virtual:hover {
+    font-weight: bold;
+    padding: 20px;
+    background-color: #fc026a;
+    color: yellow; }
+  .enlace-inscrip-virtual:active {
+    /*Todos los elementos <a> cuando se está haciendo click sobre ellos*/
+    background-color: yellow;
+    font-weight: bold;
+    padding: 20px;
+    color: #ff0571; }
 
 .flex-container-section {
   display: flex;
@@ -192,11 +224,34 @@ header {
   color: white;
   background-position: center;
   background-color: #ff0571;
-  background-position: center; }
-  .flex-container-section .flex-container-h2
+  width: 100%; }
+
+.flex-container-h2 {
+  color: #f8f8ff;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 125;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.img-index-origen {
+  display: flex;
+  width: 60%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 2px;
+  box-shadow: 4px 4px 15px 4px #f8f8ff;
+  margin-bottom: 10px; }
+
 .flex-container-iframe {
-    padding: 12px;
-    margin: 14px; }
+  padding: 12px;
+  margin: 14px; }
 
 /*!---------------main------origen----------------*/
 .payasol-origen {
@@ -209,30 +264,46 @@ header {
   background-position: center;
   padding: 20px; }
 
+.h2-origen {
+  background-color: #b1ff05;
+  color: #050b15;
+  width: 100%;
+  margin: auto; }
+
 .container-fluid {
-  display: flex;
+  display: grid;
   flex-direction: column;
   height: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: cursive;
   font-style: italic;
   color: lightgrey;
   background-position: center;
   background-color: #ff0571;
-  background-position: center; }
+  background-size: cover;
+  width: 100%; }
+  .container-fluid .row d-flex {
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
   .container-fluid .col-lg-4 {
     border: auto;
-    display: flex;
+    display: grid;
     justify-content: left;
     align-items: left;
     margin-top: 30px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%; }
     .container-fluid .col-lg-4 .parrafos-payas {
       color: white;
       font-size: 15px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      width: 100%;
       font-weight: lighter;
       margin-top: 20px;
       margin-left: 20px;
@@ -240,10 +311,11 @@ header {
       justify-content: center;
       align-items: center; }
   .container-fluid .col-lg-8 {
+    width: 100%;
     border: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    justify-content: right;
+    align-items: right;
     margin-top: 12px;
     margin-bottom: 12px; }
     .container-fluid .col-lg-8 .fotos-payas {
@@ -258,29 +330,107 @@ header {
 
 /*!---------------main---payamoment----------------*/
 .payamomentos-sumate {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: serif;
   font-style: italic;
   color: lightgrey;
   background-color: #ff0571;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  width: 100%; }
+
+.h2-payamoment {
+  background-color: #01c4e7;
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+  color: #050b15;
+  font-size: xx-large;
+  width: 100%;
+  padding-bottom: 4px;
+  padding-top: 2px;
+  margin-top: 25px; }
+
+.h3-payamoment {
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+  color: white;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+p {
+  text-align: center;
+  font-family: cursive;
+  font-style: normal;
+  color: white;
+  font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.img-payamoment {
+  display: flex;
+  width: 60%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 2px;
+  box-shadow: 4px 4px 15px 4px #01c4e7;
+  margin-bottom: 10px; }
 
 /*!---------------main---payasol----------------*/
 .payasol-origen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-family: serif;
-  font-style: italic;
-  color: #f8f8ff;
-  background-color: #01c4e7;
-  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
   background-position: center;
-  padding: 20px; }
-  .payasol-origen .h3-2doclick {
+  background-color: #01c4e7;
+  color: #f8f8ff; }
+  .payasol-origen .h2-payasol {
+    background-color: #ff0571;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
     font-style: italic;
-    color: white; }
+    color: white;
+    font-size: xx-large;
+    width: 100%;
+    padding-bottom: 4px;
+    padding-top: 2px; }
+  .payasol-origen .h3-payasol {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: white;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .payasol-origen .video-payasol {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 5px 5px 12px 5px #ff0571;
+    margin-bottom: 24px; }
+    .payasol-origen .video-payasol .p-payasol {
+      text-align: center;
+      font-family: cursive;
+      font-style: normal;
+      color: white;
+      font-size: larger;
+      margin-top: 10px;
+      margin-bottom: 20px; }
 
 /*!---------------main---sumate----------------*/
 .flex-container-section {
@@ -296,6 +446,10 @@ header {
   background-color: #ff0571;
   background-position: center; }
 
+.p-sumate {
+  font-size: medium;
+  text-align: center; }
+
 .section-form {
   background-color: #01c5e7a2;
   color: #f8f8ff;
@@ -310,7 +464,8 @@ header {
   height: 100%;
   margin-left: 20px;
   margin-right: 20PX;
-  padding: 1.5em; }
+  padding: 1.5em;
+  display: block; }
 
 .h2-form {
   color: #ff0571;
@@ -322,8 +477,9 @@ header {
   box-shadow: 10px 10px 20px 10px #ff0571;
   border-radius: 16px;
   padding: 2em;
-  width: 100%;
-  height: 50%; }
+  width: 90%;
+  height: 30%;
+  margin: auto; }
 
 .h3-grid {
   color: #050b15;
@@ -482,19 +638,20 @@ input {
   margin: 14px; }
 
 .flex-container-footer {
+  width: 100%;
   border: radius 7px;
   box-shadow: 4px,2px,2px,4px,#f8f8ff;
   border: 2px;
-  background-color: #f8f8ff;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightseagreen; }
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 0px; }
   .flex-container-footer .footer-imagens {
     padding: 0px;
-    margin-top: 20px;
-    margin-bottom: 7px; }
+    margin-top: 10px;
+    margin-bottom: 5px; }
     .flex-container-footer .footer-imagens a {
       display: inline-block;
       border-radius: 7px;
@@ -522,12 +679,13 @@ input {
         font-weight: bold;
         padding: 20px;
         color: #ff0571; }
+    .flex-container-footer .footer-imagens .p-footer {
+      font-style: italic;
+      color: #050b15;
+      padding-top: 2px;
+      padding-bottom: 2px; }
 
 @media (max-width: 719px) {
-  .video {
-    display: flex;
-    width: 85%;
-    height: 85%; }
   header nav ul {
     width: 100%; }
   li a {
@@ -567,23 +725,12 @@ input {
   justify-content: auto;
   align-items: center; }
 
-.footer-imagens {
-  max-width: 75%; }
-
-.flex-container-footer {
-  height: auto;
-  display: flex;
-  scroll-padding-block: center;
-  border-bottom: 4px;
-  justify-content: auto;
-  align-items: center;
-  background-color: white; }
-
 .fotos-payas {
   border-radius: 20px;
   width: 500px;
   height: 450px;
   text-align: center;
+  align-items: center;
   justify-content: center;
   object-fit: cover;
   margin: 10px;
@@ -600,6 +747,18 @@ input {
   margin-right: 0;
   text-align: center;
   justify-content: center; }
+
+.footer-imagens {
+  max-width: 75%; }
+
+.flex-container-footer {
+  height: auto;
+  display: flex;
+  scroll-padding-block: center;
+  border-bottom: 4px;
+  justify-content: auto;
+  align-items: center;
+  background-color: white; }
 
 @media screen and (min-width: 721px), (max-width: 920px) {
   header nav.logo-header {
@@ -669,6 +828,10 @@ input {
     margin: 0;
     text-align: center; }
   .flex-container-hero .video {
+    display: flex;
+    width: 85%;
+    height: 85%; }
+  .payasol-origen .video-payasol {
     display: flex;
     width: 85%;
     height: 85%; }
